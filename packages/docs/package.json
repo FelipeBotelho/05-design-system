@@ -1,0 +1,51 @@
+{
+  "name": "docs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "sb dev -p 6006",
+    "build-vite": "tsc && vite build",
+    "build": "storybook build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "deploy-storybook":"storybook-to-ghpages"
+  },
+  "dependencies": {
+    "@fbrdev/eslint-config": "*",
+    "@fbrdev/react": "*",
+    "@fbrdev/tokens": "*",
+    "@fbrdev/ts-config": "*",
+    "@storybook/addon-a11y": "^8.3.6",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.6",
+    "@storybook/addon-interactions": "^8.3.6",
+    "@storybook/addon-links": "^8.3.6",
+    "@storybook/addon-onboarding": "^8.3.6",
+    "@storybook/blocks": "^8.3.6",
+    "@storybook/react": "^8.3.6",
+    "@storybook/react-vite": "^8.3.6",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/test": "^8.3.6",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "globals": "^15.9.0",
+    "storybook": "^8.3.6",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.7.0",
+    "vite": "^5.4.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  }
+}
