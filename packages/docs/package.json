@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@fbrdev/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "deploy-storybook":"storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@fbrdev/eslint-config": "*",
