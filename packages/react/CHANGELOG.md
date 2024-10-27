@@ -1,5 +1,11 @@
 # @fbrdev/react
 
+## 4.1.0
+
+### Minor Changes
+
+- Add Toast and Tooltip components
+
 ## 4.0.0
 
 ### Major Changes
