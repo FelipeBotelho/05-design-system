@@ -1,5 +1,11 @@
 # @fbrdev/react
 
+## 4.2.0
+
+### Minor Changes
+
+- Fix versions
+
 ## 4.1.0
 
 ### Minor Changes
