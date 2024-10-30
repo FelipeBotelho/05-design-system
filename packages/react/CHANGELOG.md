@@ -1,5 +1,11 @@
 # @fbrdev/react
 
+## 4.3.0
+
+### Minor Changes
+
+- Fix size props Text Input
+
 ## 4.2.0
 
 ### Minor Changes

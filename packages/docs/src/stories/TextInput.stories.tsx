@@ -21,6 +21,7 @@ export default {
 export const Primary: StoryObj<TextInputProps> = {
   args: {
     placeholder: 'Type your name',
+    size: 'md',
   },
 }
 export const Disabled: StoryObj<TextInputProps> = {
