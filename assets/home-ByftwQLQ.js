@@ -1,0 +1,3 @@
+import{j as t}from"./jsx-runtime-CGpYA4L6.js";import{useMDXComponents as i}from"./index-DjKt9u9V.js";import{ae as r}from"./index-BG1zvEhc.js";import"./index-CleY8y_P.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./iframe-BWOHTf_C.js";import"../sb-preview/runtime.js";import"./index-B5B3Pcrr.js";import"./index-C2jgcCTd.js";import"./index-D-8MO0q_.js";import"./index-BbnliQch.js";import"./index-DrFu-skq.js";function e(n){const o={h1:"h1",p:"p",...i(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Home"}),`
+`,t.jsx(o.h1,{id:"ignite-ui",children:"Ignite UI"}),`
+`,t.jsx(o.p,{children:"Design System do Ignite."})]})}function g(n={}){const{wrapper:o}={...i(),...n.components};return o?t.jsx(o,{...n,children:t.jsx(e,{...n})}):e(n)}export{g as default};
